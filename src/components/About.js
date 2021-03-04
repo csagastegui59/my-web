@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import foto from "../foto.jpg";
 import "../About.css";
 
@@ -10,6 +10,7 @@ export default function About() {
         <div className="flex justify-center md:justify-end -mt-16">
           <img
             className="w-40 h-40 object-cover rounded-full border-2 border-indigo-500"
+            alt="foto"
             src={foto}
           />
         </div>
@@ -27,9 +28,9 @@ export default function About() {
           </p>
         </div>
         <div className="flex justify-end mt-4">
-          <a href="#" className="text-xl font-medium text-indigo-500">
+          <span className="text-xl font-medium text-indigo-500">
             Christian Sagástegui
-          </a>
+          </span>
         </div>
       </div>
       </div>
